@@ -1,24 +1,21 @@
-theme = "gruvbox"
+theme = "onedark"
 
 [editor.cursor-shape]
 insert = "bar"
-normal = "block"
 
 [keys.normal]
 # Quick iteration on config changes
 C-o = ":config-open"
 C-r = ":config-reload"
-
+ 
 # Some nice Helix stuff
 C-h = "select_prev_sibling"
 C-j = "shrink_selection"
 C-k = "expand_selection"
 C-l = "select_next_sibling"
 
-# Personal preference
 o = ["open_below", "insert_mode"]
 O = ["open_above", "insert_mode"]
-
 
 # Muscle memory
 "{" = ["goto_prev_paragraph", "collapse_selection"]
@@ -119,7 +116,6 @@ S = "surround_add" # Basically 99% of what I use vim-surround for
 u = ["switch_to_lowercase", "collapse_selection", "normal_mode"]
 U = ["switch_to_uppercase", "collapse_selection", "normal_mode"]
 
-# Visual-mode specific muscle memory
 i = "select_textobject_inner"
 a = "select_textobject_around"
 
